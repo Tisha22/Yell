@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+     <html>
+     <head>
+     <title>Yell</title>
+     <meta name="viewport" content="with=device-width,initial scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Benne&family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+	</head>
+     
+     <body style="background-color:rgb(217,217,217);">
+      <style>
+.center {
+  position: absolute;
+  top: 50px;
+  left: 49.8%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+	 h2 {
+  position: absolute;
+  top: 50px;
+  left: 48%;
+  font-family: 'Comic Neue', cursive;
+}
+  p1 {
+  position: absolute;
+  top: 100px;
+  left: 44%;
+  font-family: 'Trebuchet MS', cursive;
+  font-size: 14px;
+}
+
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin:0px;
+  width: 300px;
+  height: 320px;
+  position:absolute;
+  top:130px;
+  left:0px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  text-align:center;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+.tabbtm{
+	border-radius: 0px;
+	background-color: black;
+	color:white;
+	padding:10px;
+	position:absolute;
+	top:450px;
+	left:0px;
+	width:282px;
+	text-align: center;
+}
+	
+
+<style>
+input[type=text], select, textarea {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  resize: horizontal;
+}
+
+input[type=submit] {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+input[type= a file] {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type= file]:hover {
+  background-color: #000000;
+}
+.container {
+  border-radius: 5px;
+  background-color:rgba(0,0,0,0.3);
+  padding: 20px;
+  margin:0px 0px 0px 0px;
+  position: absolute;
+  top:550px;
+}
+  .container2{
+  background-color:rgb(0,0,0);
+  width:95%;
+  color:white;
+  text-align: center;
+  padding: 25px;
+  position: absolute;
+  top:1330px;
+  margin:0px 0px 0px 0px;
+}
+  p9 {
+  position: absolute;
+  top: 15px;
+  left: 51%;
+  font-family: 'Comic Neue', cursive;
+  font-size: 25px;
+  color:#990000;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: Black;
+  position: absolute;
+  top:1000px;
+}
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  width: 398px;
+  margin: 10px;
+  text-align: center;
+  line-height: 300px ;
+  font-size: 30px;
+}
+.flex-container>div:hover {
+  background-color: rgb(255,255,255,0.5)  ;
+  color: white;
+}
+
+</style>
+<div class="center">
+      <img src="yell logo.jpg" alt="yell logo"  width="230" height="172.5">
+  </div>
+  <h2 style="color:#990000" ><b>Yell</b></h2>
+      <p1>(Scream against Crime)</p1>
+    <div class="tab">
+     <button class="tabbutton"><a href="home.html" style="text-decoration:none; font-family: 'Trebuchet MS', cursive;color:black"><img src="hlogo.png" width="20" height="20" />Home</a></button>
+     <button class="tabbutton"><a href="home.html" style="text-decoration:none; font-family: 'Trebuchet MS', cursive;color:black">Visit</a></button>
+    </div>
+    <div class="tabbtm">
+    	<p>You are seeing as guest;<br>Please <a href="" style="color:blue;font-family: 'Trebuchet MS', cursive;text-decoration:none;">(log in)</a></p>
+    </div>
+
+<div class="box">
+<div class="container">
+  
+    <label for="fname">Name: </label>
+    <input type="text" id="name" name="name" placeholder="your name..">
+
+    <label for="lname">Mobile: </label>
+    <input type="text" id="lname" name="Mobile" placeholder="+880">
+
+    <label for="Email">Email: </label>
+    <input type="text" id="lname" name="Email" placeholder="email">
+
+    <label for="Age">Age: </label>
+    <input type="text" id="age" name="email" placeholder=" your age">
+
+
+    <label for="City">City: </label>
+    <select id="City" name="City">
+      <option value="Dhaka">Dhaka</option>
+      <option value="Sylhet">Sylhet</option>
+      <option value="Barishal">Barishal</option>
+      <option value="Chittagong">Chittagong</option>
+      <option value="Khulna">Khulna</option>
+      <option value="Rajshahi">Rajshahi</option>
+    </select>
+
+    <label for="Gender">Gender: </label>
+    <select id="Gender" name="Gender">
+      <option value="Female">Female</option>
+      <option value="Male">Male</option>
+      <option value="Others">Others</option>
+    </select>
+
+<label for='Platform'>Platform: </label>
+    <select id="Platform" name="Platform">
+      <option value="Facebook">Facebook</option>
+      <option value="Youtube">Youtube</option>
+      <option value="Others">Others</option>
+    </select>
+    <label for='Evidence'>Evidence: </label>
+    <input type="Add file" value="Add file">
+
+    <label for="Write Problem">Write Problem</label>
+    <textarea id="subject" name="subject" placeholder="your words,our yell.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </div>
+</div>
+<div class="container2">
+  <p8>©<p9><b>Yell</b></p9></p8>
+</div>
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+</body>
+</html>

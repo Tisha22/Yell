@@ -1,0 +1,88 @@
+	 <style>
+.button1{
+  background-color: rgb(31,73,125);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 18px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+.banner-btn1{
+	position:absolute;
+	top:275px;
+	right:525px;
+}
+
+</style>
+
+<div class="banner-btn1">
+  <a href="#" class="button1">Join with facebook</a>   
+</div>    
+
+	
+ 
+
+	
+	<style>
+.button{
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  padding: 15px 57px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.banner-btn{
+	position:absolute;
+	top:330px;
+	right:525px;
+}
+
+</style>
+
+    <div class="banner-btn">
+    <a href="#1" class="button">Join with Google</a>
+</div>
+<style>
+  .button2{
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 20px 97px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-color:white;
+}
+.banner-btn2{
+  position:absolute;
+  top:380px;
+  right:525px;
+}
+      p1 {
+  position: absolute;
+  top: 20px;
+  left: 60%;
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+  color:#990000;
+}
+ }
+</style>
+<div class="banner-btn2">
+  <a href="home.html" class='button2'>Visit <p1><b>Yell</b></p1></a>
+</div>

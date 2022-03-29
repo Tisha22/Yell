@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+     <html>
+     <head>
+     <title>
+     	Yell
+     </title>
+     </head>
+     <body style='background-color: rgb(217,217,217);'>
+     <style>
+
+     .top-left {
+  position: absolute;
+  top: 30px;
+  left:3%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+     p {
+  position: absolute;
+  top: 35px;
+  left: 35%;
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  font-size: 17px;
+  font-family: 'Trebuchet MS', cursive;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(217,217,217);
+  color:black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+input[type=text], select, textarea {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  resize: horizontal;
+}
+
+input[type=submit] {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+input[type= a file] {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type= file]:hover {
+  background-color: #000000;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:rgba(0,0,0,0.3);
+  padding: 20px;
+  margin:30px 70px 0px 70px;
+}
+
+     </style>
+     	<div class="top-left">
+     	<a href="front page.html"><img src="yell logo.jpg" alt="yell logo"  width="125" height="100"></a>
+	  	<p style="color:#990000" ><b>Yell</b></h2>
+       </div>
+     <ul>
+  <li><a href="home">TishAyon</a></li>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="file:///C:/Users/user/Desktop/Yell/complain.html">Complain</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Blog</a>
+    <div class="dropdown-content">
+      <a href="blog.html">Article</a>
+      <a href="Video.html">Video</a>
+      <a href="#">Photo</a>
+    </div>
+    <li><a href="workshop.html">Workshop</a></li>
+    <li><a href="Media Law.html">Media/law</a></li>
+    <li><a href="Feedback.html">Feedback</a></li>
+    <li><a href="..">Consultancy</a></li>
+    <li><a href="About.html">About & Contact</a></li>
+  </li>
+</ul>
+
+<div class="container">
+  
+    <label for="fname">Name: </label>
+    <input type="text" id="name" name="name" placeholder="your name..">
+
+    <label for="lname">Mobile: </label>
+    <input type="text" id="lname" name="Mobile" placeholder="+880">
+
+    <label for="Email">Email: </label>
+    <input type="text" id="lname" name="Email" placeholder="email">
+
+    <label for="Age">Age: </label>
+    <input type="text" id="age" name="email" placeholder=" your age">
+
+
+    <label for="City">City: </label>
+    <select id="City" name="City">
+      <option value="Dhaka">Dhaka</option>
+      <option value="Sylhet">Sylhet</option>
+      <option value="Barishal">Barishal</option>
+      <option value="Chittagong">Chittagong</option>
+      <option value="Khulna">Khulna</option>
+      <option value="Rajshahi">Rajshahi</option>
+    </select>
+
+    <label for="Gender">Gender: </label>
+    <select id="Gender" name="Gender">
+      <option value="Female">Female</option>
+      <option value="Male">Male</option>
+      <option value="Others">Others</option>
+      
+    </select>
+
+<label for='Platform'>Platform: </label>
+    <select id="Platform" name="Platform">
+      <option value="Facebook">Facebook</option>
+      <option value="Youtube">Youtube</option>
+      <option value="Others">Others</option>
+    </select>
+    <label for='Evidence'>Evidence: </label>
+    <input type="Add file" value="Add file">
+
+    <label for="Write Problem">Write Problem</label>
+    <textarea id="subject" name="subject" placeholder="your words,our yell.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+</div>
+     </body>
+     </html>
